@@ -93,7 +93,7 @@ img {
   vertical-align: middle;
   text-decoration: none;
   color: #4d5ae5;
-  /*  margin-right: 76px; */
+  margin-right: 76px;
 }
 .logo-header {
   padding: 17.5px 0;
@@ -222,6 +222,8 @@ img {
 
 @media only screen and (min-width: 1158px) {
   .nav-address {
+    flex-direction: row;
+    gap: 40px;
   }
 }
 .nav-address-item {
