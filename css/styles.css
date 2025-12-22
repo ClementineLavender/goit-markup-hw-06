@@ -271,6 +271,16 @@ img {
   pointer-events: initial;
   transition-delay: 0ms;
 }
+@media only screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 
 .mobile-menu .mobile-menu-btn {
   position: absolute;
