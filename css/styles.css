@@ -369,6 +369,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
+    url("../images/hero/hero-desctop-1x_ergebnis.jpg"),
     url("../images/hero/hero-desctop-2x_ergebnis.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -499,12 +500,7 @@ img {
 }
 @media only screen and (min-width: 1158px) {
   .features-list {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap; /* почистить */
     gap: 24px;
-    align-items: center;
-    justify-content: center;
   }
 }
 .features-item {
@@ -672,14 +668,6 @@ img {
   /*   width: calc((100% - 72px) / 4); */
   border-radius: 0px 0px 4px 4px;
 }
-/* @media only screen and (max-width: 768px) {
-  .team-item {
-  }
-}
-@media only screen and (max-width: 1158px) {
-  .team-item {
-  }
-} */
 .social-list {
   display: flex;
   justify-content: center;
@@ -775,10 +763,6 @@ img {
 }
 @media only screen and (min-width: 1158px) {
   .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     column-gap: 24px;
     row-gap: 56px;
   }
@@ -880,11 +864,6 @@ img {
 .logo-light {
   color: #f4f4fd;
 }
-
-.footer-block {
-  /*  margin-right: 120px; */
-}
-
 .footer-social-media {
   font-weight: 500;
   font-size: 16px;
@@ -897,11 +876,6 @@ img {
   display: flex;
   gap: 16px;
 }
-
-/* .social-block-item {
-  width: 40px;
-  height: 40px;
-} */
 
 .social-icon-link {
   display: flex;
@@ -1067,7 +1041,7 @@ img {
 }
 .modal {
   width: 288px;
-  height: 623px;
+  /*  height: 623px; */
   background-color: #fcfcfc;
   position: absolute;
   justify-content: center;
@@ -1078,7 +1052,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 16px 16px 16px;
+  padding: 72px 16px 24px;
 }
 @media (min-width: 768px) {
   .modal {
@@ -1093,7 +1067,7 @@ img {
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 80px 24px 24px 24px;
+    padding: 72px 24px 24px;
   }
 }
 .modal-info {
@@ -1109,7 +1083,6 @@ img {
     font-weight: 500;
     text-align: center;
     color: var(--color-modal-info);
-    /*    margin-bottom: 16px; */
   }
 }
 
@@ -1139,7 +1112,6 @@ img {
   .modal-form-field {
     display: flex;
     flex-direction: column;
-    /*     margin-bottom: 8px; */
   }
 }
 
@@ -1306,6 +1278,10 @@ img {
   display: block;
   margin: 0 auto;
   min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
   height: 56px;
 
   font-weight: 500;
