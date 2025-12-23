@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-    <symbol id="icon-toggle" viewBox="0 0 36 32">
+    <symbol id="icon-burger-menu" viewBox="0 0 36 32">
       <path d="M0 2.56A2.56 2.56 0 0 1 2.56 0h30.72a2.56 2.56 0 0 1 0 5.12H2.56A2.56 2.56 0 0 1 0 2.56zM0 15.36a2.56 2.56 0 0 1 2.56-2.56h30.72a2.56 2.56 0 0 1 0 5.12H2.56A2.56 2.56 0 0 1 0 15.36zM0 28.16a2.56 2.56 0 0 1 2.56-2.56h30.72a2.56 2.56 0 0 1 0 5.12H2.56A2.56 2.56 0 0 1 0 28.16z"/>
     </symbol>
     <symbol id="icon-antenna" viewBox="0 0 32 32">
